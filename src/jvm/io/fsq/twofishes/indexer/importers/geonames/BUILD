@@ -2,7 +2,7 @@
 
 scala_library(
   name = 'geonames',
-  sources = globs('*.scala'),
+  sources = ['*.scala'],
   dependencies = [
     '3rdparty:akka',
     '3rdparty:bson',
